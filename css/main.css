@@ -90,9 +90,9 @@ p {
   border-radius: 12px;
   font-size: 54px;
   height: 100%;
-  color: aqua;
+  color: rgb(243, 10, 10);
   padding-top: 165px;
-  background: rgb(79, 104, 146);
+  /* background: rgb(79, 104, 146); */
 }
 
 /* timer */
