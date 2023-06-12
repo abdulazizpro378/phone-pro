@@ -20,7 +20,13 @@ p {
   color: black;
 }
 #phone {
-  background-color: rgb(126, 107, 107);
+  /* background-color: #fff; */
+  /* background-color: #fff; */
+  background-image: url(https://images.unsplash.com/photo-1516610540415-d1b25463c7f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: initial;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -29,7 +35,11 @@ p {
 }
 
 .screen {
-  background-color: white;
+  /* background-color: white; */
+  background-image: url(https://images.unsplash.com/photo-1619551734325-81aaf323686c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnJhbmQlMjBsb2dvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+
   margin: 0 auto;
   width: 300px;
   height: 550px;
@@ -46,6 +56,16 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.alarm img {
+  background: transparent;
+}
+
+p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 800;
 }
 
 .alrm2 {
@@ -85,7 +105,7 @@ p {
   padding-top: 200px;
 }
 
- .controls button {
+.controls button {
   background-color: #222242;
   padding: 10px 15px;
   border: 1px solid #a9a9aa;
@@ -102,4 +122,13 @@ button:hover {
 .timer {
   font-size: 48px;
   font-weight: 300;
+}
+
+.sercl {
+  transform: translateY(70px);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(48, 61, 159);
+  border: 1px solid black;
 }
